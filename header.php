@@ -30,8 +30,18 @@ endif;
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					      </button>
-					     <a href=""> <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" /></a>
+
+					      <!-- Header Image  -->
+					    <?php if ( get_header_image() ) : ?>
+    <div id="site-header">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+            <img src="<?php header_image(); ?>" width="<?php echo absint( get_custom_header()->width ); ?>" height="<?php echo absint( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+        </a>
+    </div>
+<?php endif; ?>
 						 
+					     <!-- Header Image -->
+
 					    </div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<?php 
