@@ -29,7 +29,7 @@ add_action('wp_enqueue_scripts', 'hotelsng_script_enqueue');
 
  	 function hotelsng_custom_header_setup() {
     $header_image = array(
-        'default-image'=> get_template_directory_uri() . 'images/Bon_Voyage.png',
+        'default-image'=> get_template_directory_uri() . '/assets/images/Bon_Voyage.png',
         'default-text-color' => '000',
         'width'=> 1000,
         'height'=> 250,
@@ -57,4 +57,17 @@ add_action('wp_enqueue_scripts', 'hotelsng_script_enqueue');
 			'gallery',
 			'caption',
 		) );
+
+
+ 	  // add_filter('nav_menu_css_class' ,'special_nav_class', 10, 2);
+				// 				function special_nav_class ($classes, $item){
+
+				// 					if(is_front_page() && $item->title =='offers'){
+
+				// 						$classes[] ='current-menu-item';
+				// 					}
+				// 					return $classes;
+									
+				// 				}
+
 ?>   

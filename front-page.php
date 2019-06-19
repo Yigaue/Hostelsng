@@ -26,10 +26,7 @@ get_template_part( 'template-parts/content', 'gallery' );
 
 
 <?php
-if (is_front_page()):
-  get_footer('home');
-else:
 
   get_footer();
-endif;
+
  

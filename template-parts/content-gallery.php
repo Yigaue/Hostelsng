@@ -6,23 +6,23 @@
 
   <div class="image-with-text" style="float: left">
   <a target="_blank" href="img_5terre.jpg">
-    <img src="<?php bloginfo('template_directory')?>/assets/images/rooms/room.png" alt="Forest">
+    <img src="<?php bloginfo('template_directory')?>/assets/images/rooms/Presidential.png" alt="Forest">
         </a>
-        <p> Master Bed <span> $550 per night</span></p> 
+        <p> Presidential Suite <span> $550 per night</span></p> 
         </div>
 
         <div class="image-with-text" style="float: left">
        <a target="_blank" href="img_5terre.jpg">
-    <img src="<?php bloginfo('template_directory')?>/assets/images/rooms/room1.png" alt="Forest">
+    <img src="<?php bloginfo('template_directory')?>/assets/images/rooms/master.png" alt="Forest">
   </a>
-  <p> Double Bed <span> $550 per night</span></p>
+  <p> Master Bed <span> $550 per night</span></p>
 </div>
 
  <div class="image-with-text" style="float: left">
   <a target="_blank" href="img_5terre.jpg">
-    <img src="<?php bloginfo('template_directory')?>/assets/images/rooms/room2.png" alt="Forest">
+    <img src="<?php bloginfo('template_directory')?>/assets/images/rooms/double.png" alt="Forest">
      </a>
-     <p> Presidential Suite<span> $550 per night</span></p>
+     <p> Double Bed<span> $550 per night</span></p>
  </div>
   </div>
 <div class="gallery2">

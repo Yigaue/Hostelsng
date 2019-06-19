@@ -16,25 +16,25 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="<?php bloginfo('template_directory')?>/assets/images/front_page.png" alt="Los Angeles" style="width:100%;">
+        <img src="<?php bloginfo('template_directory')?>/assets/images/carousel.png" alt="Los Angeles" style="width:100%; height: 600px;">
         <div class="carousel-caption">
-          <h3 style="font-family: pattaya, font-size: 48px">Let’s make your stay memorable</h3>
+          <h3 style="font-family: pattaya; font-size: 38px">Let’s make your stay memorable</h3>
           <!-- <p>LA is always so much fun!</p> -->
         </div>
       </div>
 
       <div class="item">
-        <img src="<?php bloginfo('template_directory')?>/assets/images/blogto-banner-1920-850.jpg" alt="Chicago" style="width:100%;">
+        <img src="<?php bloginfo('template_directory')?>/assets/images/carousel1.jpg" alt="Chicago" style="width:100%; height: 600px;">
         <div class="carousel-caption">
-           <h3 style="font-family: pattaya, font-size: 48px">Let’s make your stay memorable</h3>
+           <h3 style="font-family: pattaya; font-size: 38px">Let’s make your stay memorable</h3>
           <!-- <p>Thank you, Chicago!</p> -->
         </div>
       </div>
     
       <div class="item">
-        <img src="<?php bloginfo('template_directory')?>/assets/images/blogto-banner-1920-850.jpg" alt="New York" style="width:100%";>
+        <img src="<?php bloginfo('template_directory')?>/assets/images/carousel2.jpg" alt="New York" style="width:100%; height: 600px";>
         <div class="carousel-caption">
-            <h3 style="font-family: pattaya, font-size: 48px">Let’s make your stay memorable</h3>
+            <h3 style="font-family: pattaya; font-size: 38px">Let’s make your stay memorable</h3>
          <!--  <p>We love the Big Apple!</p> -->
         </div>
       </div>

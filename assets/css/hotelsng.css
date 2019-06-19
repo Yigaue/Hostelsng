@@ -26,7 +26,7 @@ a:hover{
     padding-left:0px;
 } 
 
-nav.navbar{
+nav.navbar-default{
 background-color: #ffffff;
 width:100%;
   height:100px;
@@ -40,28 +40,27 @@ width:100%;
    font-family: Lato;
 font-style: normal;
 font-size: 15px;
-line-height: 60px;
-display: flex;
+/*display: flex;*/
 align-items: center;
 text-align: center;
   font-weight: bold;
-  padding-right: 30px;
- 
+  padding: 40px 30px ; 
   }
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active{
+
+ 
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav >
+ li > a:hover{
     color: #2d9cdb;
     
   }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #5e5e5e;
-    background-color: transparent;
     font-family: Leckerli One;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
-line-height: 32px;
-display: flex;
+/*display: flex;*/
 align-items: center;
 text-align: center;
 }
@@ -84,8 +83,8 @@ body {
 }
 a,
 a:hover,
-a:focus,
-a:active {
+a:focus
+ {
   text-decoration: none;
   color: inherit;
 }
@@ -93,6 +92,14 @@ a {
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
+
+ li.current-menu-item a{
+  color: #2d9cdb !important;
+   
+  }
+
+  
+
 .ct-u-paddingTop10 {
   padding-top: 10px !important;
 }
@@ -531,12 +538,12 @@ padding-left: 120px;
 
     }
 
-    .primary-nav ul li.current-menu-item a{color: #bca474;}
+   /* .primary-nav ul li.current-menu-item a{color: #bca474;}
+    *uncomment if there is trouble
+   */
 
 
     /*carousel starts*/
-
-
 
 /* image Gallery*/
 div.gallery-group:hover {
@@ -622,6 +629,10 @@ font-family: Lato;
 line-height: 29px; 
 }
  /*
+#############################################################
+######### IF THERE IS ISSUE WITH THE GALLERY CONSIDER##########
+###########RESURRECTING THIS SECTION STYLE####################
+##############################################################
  .gallery1{
 
   position: absolute;
@@ -641,4 +652,257 @@ line-height: 29px;
   top: 1300px;
  }*/
 
+
+/*Style for the other pages aside the home/frontpage*/
+ div.pages-top{
+position: absolute;
+width: 1440px;
+height: 100px;
+/* identical to box height */
+color: #FFFFFF;
+background: #2D9CDB;
+top: 100px;
+ }
+
+
+ div.pages-top h1{
+
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+/* identical to box height */
+text-align: left;
+padding: 20px 0 0 70px;
+color: #FFFFFF;
+
+ }
+
+ div.pages-top-next{
+
+position: absolute;
+width: 1440px;
+height: 70px;
+left: 0px;
+top: 200px;
+
+/* Gray 6 */
+
+background: #F2F2F2
+
+ }
+div.pages-top-next h2{
+position: absolute;
+left: 0px;
+top: -15px;
+font-family: Lato;
+padding: 0px 0px 0px 70px;
+font-size: 20px;
+color: #828282
+ }
+
  
+ div.page-header-img{
+  width: 100%;
+  position: absolute;
+  top: 271px;
+  height: 600px;
+  
+   }
+
+ div.page-header-img img{
+  position: absolute;
+  top: 0px;
+  left: 70px;
+width: 1200px;
+height: 593px;
+background: url(../images/rooms/header.png), #C4C4C4;
+ }
+
+p.page-header-text{
+  position: absolute;
+left: 70px;
+top: 600px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+color: #2D9CDB;
+
+}
+p.page-header-text-2{
+  position: absolute;
+top: 600px;
+left: 580px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #333333;
+
+
+}
+
+div.page-header-img span{
+ position: absolute;
+right: 75px;
+top: 600px; 
+font-size: 24px;
+line-height: 35px;
+color: #309559;
+
+}
+
+
+ p.page-header-desc
+ {
+position: absolute;
+left: 70px;
+right: 75px;
+top: 650px; font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #828282;
+
+ }
+div.page-gallery-group{
+
+  position: absolute;
+  top: 1000px;
+  width: 1200px;
+  right: 75px;
+ /* background: red;*/
+  height: 880px;
+ }
+
+div.page-gallery-group img {
+   height: 270px;
+  width: 400px;
+padding: 0px 15px 0px 0px;
+
+}
+
+
+
+div.page-gallery1, div.page-gallery2{
+
+  float: left;
+  width: 1200px;
+  height: 300px;
+
+}
+div.page-gallery1{
+  position: relative;
+  top: 50px;
+  left: 0px;
+/*    background: blue;*/
+  float: left;
+
+
+}
+
+div.page-gallery2{
+    position: relative;
+  top: 180px;
+  left: 0px;
+/*   background: black;*/
+}
+
+div.page-img-div{
+
+ background: rgba(230, 240, 249, 0.7);
+  height: 135px;
+  width: 385px;
+  padding: 0px;
+  
+}
+
+div.last{
+
+  width: 400px;
+  
+}
+
+div.page-image{
+
+text-align: justify;
+width: 400px;
+
+  }
+
+   div.page-image img.last{
+padding-right: 0px;
+  }
+ div.page-img-div p:first-child{
+  /*position: absolute;
+  left: 20px;*/
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 32px;
+padding: 0px 30px 0px 30px;
+color: #333333;
+}
+
+  div.page-img-div p{
+font-size: 20px;
+font-family: Lato;
+line-height: 29px; 
+padding: 0px 30px 0px 30px;
+color: #828282;
+}
+
+div.price-tag{
+  position: absolute;
+  top: 0px;
+  background: #309559;
+
+  width: 70px;
+  height: 30px;
+}
+
+div.price-tag p{
+  color: #FFFFFF;
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+padding: 5px 0px 0px 10px;
+}
+
+button.btn.btn-primary {
+    margin-left: 10px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -webkit-appearance: button;
+    display: inline-block;
+    position: absolute;
+    right: 13px;
+    top: 28px;
+    font-size: 14px;
+  }
+
+ div.footer-pages{
+position: absolute;
+top: 2000px;
+width: 100%;
+ }
