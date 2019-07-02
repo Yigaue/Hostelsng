@@ -1,4 +1,4 @@
-<h2>Home <img src="<?php echo get_theme_file_uri('/assets/images/vectors/header_arrow.png')?>"> <?php  esc_html_e('Blog','hotelsng') ?>
+<h2>Home <img src="<?php echo get_theme_file_uri('/assets/images/vectors/header_arrow.png')?>"> <?php  esc_html_e('Offers','hotelsng') ?>
       </h2>
 
   </div>

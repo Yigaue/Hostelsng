@@ -39,9 +39,10 @@
 								
 								
 							?>
-							 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bookmodel">
-       						 <?php echo  esc_html_e('RESERVE NOW','hotelsng') ?>         
-   							 </button>
+							 <a class="btn btn-primary" data-toggle="modal" data-target="#bookmodel" href="http://localhost/wordpress/reservations/"> 
+       						 <?php echo  esc_html_e('RESERVE NOW','hotelsng') ?> 
+
+   							 </a>
    							
 						</div>
 

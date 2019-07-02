@@ -885,7 +885,7 @@ text-align: center;
 padding: 5px 0px 0px 10px;
 }
 
-button.btn.btn-primary {
+a.btn.btn-primary {
     margin-left: 10px;
     padding: 12px 20px;
     text-transform: uppercase;
@@ -893,7 +893,7 @@ button.btn.btn-primary {
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
-    -webkit-appearance: button;
+   /* -webkit-appearance: button;*/
     display: inline-block;
     position: absolute;
     right: 13px;
@@ -901,7 +901,96 @@ button.btn.btn-primary {
     font-size: 14px;
   }
 
+  form.reserve{
+    width: 1200px;
+
+    height: 950px;
+    position: absolute;
+    top: 1000px;
+    background-color:  rgba(230, 240, 249, 0.7);
+    padding: 0px 50px 0px 0px;
+    margin: 0px 0px 0px 70px;
+    border-radius: 4px;
+  }
+
+  form.reserve input.reserve-input{
+
+      margin: 25px;
+    width: 700px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    padding-left: 30px;
+  }
+input.reserve-bt{
+
+  width: 160px !important;
+  background-color: #2D9CDB;
+  height: 45px;
+  color: #ffffff;
+  position: relative;
+  left: 190px;
+  border: none;
+ top: -158px;
+ font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+
+}
+
+input.chekin{
+  width: 317px !important;
+
+}
+input.chekout{
+  width: 317px !important;
+ position: relative;
+ top: -158px;
+ left: 380px;
+}
+input.guest{
+  width: 317px !important;
+ position: relative;
+ top: -158px;
+}
+
+p.form-gp{
+  width: 300px;
+  position: relative;
+  top: 40px;
+  left: 30px;
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+align-items: center;
+
+color: #828282;
+border-radius: 10px;
+
+}
+p.form-gp:nth-child(13){ /*this is the check-out input element*/
+
+  position: relative;
+  top: -115px;
+ left: 410px;
+  
+  
+}
+
+p.form-gp:nth-child(16){ /*this is the guests input element*/
+
+  position: relative;
+  top: -120px;
+  
+}
  div.footer-pages{
+
 position: absolute;
 top: 2000px;
 width: 100%;
